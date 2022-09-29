@@ -3,8 +3,8 @@
         {
             "name": "conference-ms",
             "stack": "spring-boot",
-            "healthCheckPath": "/api/health"
-        }
+            "healthCheckPath":"/management/health",
+            "dbms":"postgresql"        }
     ],
     "microfrontends": [],
     "svc": [],

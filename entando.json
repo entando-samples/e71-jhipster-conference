@@ -3,10 +3,31 @@
         {
             "name": "conference-ms",
             "stack": "spring-boot",
-            "healthCheckPath":"/management/health",
-            "dbms":"postgresql"        }
+            "healthCheckPath": "/management/health",
+            "dbms": "postgresql"
+        }
     ],
-    "microfrontends": [],
+    "microfrontends": [
+        {
+            "name": "conference-table",
+            "customElement": "conference-table",
+            "stack": "react",
+            "type": "widget",
+            "group": "free",
+            "publicFolder": "public",
+            "titles": {
+                "en": "conference-table",
+                "it": "conference-table"
+            },
+            "apiClaims": [
+                {
+                    "name": "conference-api",
+                    "type": "internal",
+                    "serviceName": "conference-ms"
+                }
+            ]
+        }
+    ],
     "svc": [],
     "name": "e71-jhipster-conference",
     "version": "0.0.1",

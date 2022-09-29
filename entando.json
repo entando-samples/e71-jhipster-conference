@@ -26,6 +26,44 @@
                     "serviceName": "conference-ms"
                 }
             ]
+        },
+        {
+            "name": "conference-details",
+            "customElement": "conference-details",
+            "stack": "react",
+            "type": "widget",
+            "group": "free",
+            "publicFolder": "public",
+            "titles": {
+                "en": "conference-details",
+                "it": "conference-details"
+            },
+            "apiClaims": [
+                {
+                    "name": "conference-api",
+                    "type": "internal",
+                    "serviceName": "conference-ms"
+                }
+            ]
+        },
+        {
+            "name": "conference-form",
+            "customElement": "conference-form",
+            "stack": "react",
+            "type": "widget",
+            "group": "free",
+            "publicFolder": "public",
+            "titles": {
+                "en": "conference-form",
+                "it": "conference-form"
+            },
+            "apiClaims": [
+                {
+                    "name": "conference-api",
+                    "type": "internal",
+                    "serviceName": "conference-ms"
+                }
+            ]
         }
     ],
     "svc": [],

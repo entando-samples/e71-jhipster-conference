@@ -1,4 +1,4 @@
-# Configurable Widget
+# Blueprint for a Conference entity
 The project contains a Blueprint-generated microservice and MFEs for Entando 7.1
 
 ## Prerequisites
